@@ -1,0 +1,38 @@
+.header_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 80px;
+}
+
+
+.category_section_and_filter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-top: 60px;
+}
+
+.category {
+    display: flex;
+    gap: 40px;
+}
+
+.category_name {
+    font-size: 30px;
+    color: #000;
+    cursor: pointer;
+}
+
+
+
+.filter_btn {
+    border: 1px solid #000;
+    color: #000;
+    font-size: 30px;
+    text-align: center;
+    background: transparent;
+    padding: 5px 32px;
+    cursor: pointer;
+}
